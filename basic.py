@@ -7,4 +7,4 @@ prompt = PromptTemplate(input_variables=["topic"], template="Explain {topic} in 
 chain = LLMChain(llm=llm, prompt=prompt)
 
 response = chain.run("quantum computing")
-print(response)
+
